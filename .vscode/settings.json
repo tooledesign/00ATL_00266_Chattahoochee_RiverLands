@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 15,
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true,
+                "trustServerCertificate": false,
+                "abortTransactionOnError": true
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "92.168.22.227",
+            "port": 5432,
+            "driver": "MSSQL",
+            "name": "analysis_trainin",
+            "database": "analysis_training",
+            "username": "gis",
+            "password": "gis"
+        }
+    ]
+}
