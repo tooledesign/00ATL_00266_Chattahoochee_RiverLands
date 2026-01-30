@@ -1,0 +1,10 @@
+# not all projects might need these packages, add or remove as needed
+jupyterlab
+ipykernel
+ipywidgets
+linref==0.1.2
+folium
+fiona
+
+# this checks out the latest release of tooles and install all its dependencies:
+git+ssh://git@github.com/tooledesign/tooles.git@v4.0.4
