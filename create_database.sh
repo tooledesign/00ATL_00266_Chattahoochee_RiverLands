@@ -8,12 +8,12 @@
     # add the database to a QGIS connection xml file
 
 MYPATH="$PWD"
-# HOST=192.168.XX.227
-# DB=
-# PROJ_NUM=""
-# ANALYST=""
-# MANAGER=""
-# SRID=""
+HOST=192.168.22.227
+DB= "00ATL_00266_Chattahoochee_RiverLands"
+PROJ_NUM="00ATL_00266_"
+ANALYST="Henry COhen"
+MANAGER="Kevin Bacon"
+SRID="3762"
 
 
 if [ -z "$PROJ_NUM" ]
